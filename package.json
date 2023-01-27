@@ -1,0 +1,44 @@
+{
+  "name": "dice-funk",
+  "version": "0.1.0",
+  "description": "Homepage for the Dice Funk comedy D&D actual play podcast",
+  "main": "app.js",
+  "scripts": {
+    "test": "vitest",
+    "test:c": "vitest run --coverage",
+    "start": "node app.js",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamutus/dice-funk.git"
+  },
+  "author": "Lavra Tamutus",
+  "license": "GPL-3.0-or-later",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/tamutus/dice-funk/issues"
+  },
+  "homepage": "https://github.com/tamutus/dice-funk#readme",
+  "devDependencies": {
+    "@nuxt/test-utils-edge": "^3.0.1-rc.0-27810184.d991a55",
+    "@nuxtjs/google-fonts": "^3.0.0-1",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "@vitest/coverage-c8": "^0.25.8",
+    "@vue/test-utils": "^2.2.7",
+    "jsdom": "^20.0.3",
+    "nuxt": "^3.1.0",
+    "prisma": "^4.9.0",
+    "unplugin-auto-import": "^0.12.2",
+    "unplugin-vue-components": "^0.22.12",
+    "vitest": "^0.25.2"
+  },
+  "dependencies": {
+    "@auth0/auth0-vue": "^1.0.3",
+    "@google-cloud/storage": "^6.9.1"
+  }
+}
